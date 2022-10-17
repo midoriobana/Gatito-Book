@@ -15,7 +15,7 @@ export class AutenticacaoService {
   ) { }
 
   autenticar(usuario: string, senha: string): Observable<any> {
-    return this.http.post<any>(`${this.endpoint}/user/login`, {
+    return this.http.post(`${this.endpoint}/user/login`, {
       userName: usuario,
       password: senha
     })
