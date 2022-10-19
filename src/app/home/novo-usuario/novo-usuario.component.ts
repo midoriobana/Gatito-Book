@@ -5,7 +5,7 @@ import { minusculoValidator } from 'src/app/shared/commons/minusculoValidator';
 import { senhaIguaisValidator } from 'src/app/shared/commons/senhasIguaisValidator';
 import { NovoUsuario } from './novo-usuario';
 import { NovoUsuarioService } from './novo-usuario.service';
-import { UsuarioService } from './usuario.service';
+import { UsuarioService } from './usuarioExistente';
 
 @Component({
   selector: 'app-novo-usuario',
